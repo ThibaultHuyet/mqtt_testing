@@ -10,7 +10,7 @@ def on_message(client, userdata, message):
     temperature = round(temperature, 2)
     print(str(message.topic) + ": {0}".format(temperature))
 
-client = mqtt.Client(client_id = "sh2mqtt_bridge")
+client = mqtt.Client(client_id = "rpi2comp")
 client.on_message = on_message
 
 subscribe.callback(on_message, path, hostname = broker)
