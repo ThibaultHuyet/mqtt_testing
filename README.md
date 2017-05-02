@@ -1,5 +1,7 @@
 This is the very basic practice I started off doing to learn mqtt using Python.
 
+[PyDoc](https://pypi.python.org/pypi/paho-mqtt) page is helpful.
+
 # mqtt_basic.py
 mqtt_basic.py is a very simple program that publishes a 0 and a 1 to a broker. This program was taken from some code I found online and it was intended to turn and LED on or off. I did not add the LED side and just wanted to see if I could get any kind of message sent.
 
