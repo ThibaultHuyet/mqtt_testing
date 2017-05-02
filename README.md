@@ -7,3 +7,10 @@ This was my first attempt at sending some sort of real values to a broker. The i
 
 # mqtt_pub.py
 The publish code is run on the raspberry pi that has a Sensehat attached. I modified a lot of this code from sources I found online. I used a wide variaty and modified the entire code such that it isn really recognizable anymore. Sends a temperature value to any who subscribe to it.
+
+## To do
+- Add more boards to mqtt
+- Try out wildcard stuff
+- store values in some way
+- create graphs from data taken in
+- Dockerize things
